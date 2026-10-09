@@ -1,0 +1,8 @@
+{
+  "name": "AASRA AI — Personal AI Care Ecosystem for Elderly Wellbeing",
+  "description": "Your Personal AI Family Companion, Virtual Caretaker & Safety Assistant. Learn. Understand. Care. Connect.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes pulseGlow {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.9;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+  }
+
+  @keyframes wave {
+    0%, 100% {
+      height: 8px;
+    }
+    50% {
+      height: 32px;
+    }
+  }
+
+  .animate-pulseGlow {
+    animation: pulseGlow 3s ease-in-out infinite;
+  }
+
+  .font-elder-large {
+    font-size: 1.15rem;
+    line-height: 1.75;
+  }
+
+  .font-elder-xl {
+    font-size: 1.3rem;
+    line-height: 1.9;
+  }
+}
